@@ -8,4 +8,3 @@
 - Choose visibility
 - Wait a bit (or a lot depending on processing power)
 - Do the usual "git clone <URL link>.git" in VS Code/Visual Studio
-

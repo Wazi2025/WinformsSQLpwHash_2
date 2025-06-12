@@ -19,7 +19,7 @@ A Windows Forms (.NET) application designed to demonstrate secure user authentic
 - Passwords are stored **only** as salted, hashed values.
 
 ### 📊 SQL Database Integration
-- Secure `INSERT`, `SELECT`, and `UPDATE` operations.
+- Secure `INSERT` and `SELECT` operations.
 - `SQLInsert()` and `SQLSelect()` are fully parameterized.
 - Data is displayed in a `DataGridView`, neatly embedded in a `TableLayoutPanel`.
 
@@ -44,18 +44,11 @@ A Windows Forms (.NET) application designed to demonstrate secure user authentic
 
 ## 🔧 Setup & Run
 1. Clone this repo using [this guide](CloneRepo.md).
-2. Set up the required SQL Server database.
+2. Set up the required SQL Server database using the enclosed scripts in the SQL dir.
 3. Update the connection string in `Program.cs > GetFreshConnection()`.
 4. Build and run the project via Visual Studio.
 
 ---
-
-## ✨ Future Improvements
-- Add user roles and privilege levels.
-- Proper field validation (email, empty input, etc).
-- Error handling for failed SQL ops.
-- Async support for smoother UX.
-- Additional logging layers (INFO, WARN, ERROR).
 
 ---
 
@@ -66,7 +59,7 @@ This project reflects a sincere journey from raw console experiments to GUI-back
 
 ---
 
-Made with blood, sweat, caffeine, and a dash of **pepper**.
+Made with blood, sweat, caffeine, and a dash of **expletives**.
 
 **-- TNode // Wazi2025**
 
