@@ -8,4 +8,4 @@ You will also need to add a 'user' table to the DB using the enclosed CreateUser
 
 This is the Visual Studio "version" of Winforms_SQL_PwHash. Includes menu and About box & logfile routine.
 
-[Technical overview](ReadMe_WinformsSQLpwHash_2).
+[Technical overview](ReadMe_WinformsSQLpwHash_2.md).
