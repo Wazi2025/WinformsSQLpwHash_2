@@ -50,12 +50,8 @@ A Windows Forms (.NET) application designed to demonstrate secure user authentic
 
 ---
 
----
-
 ## 🌟 Final Thoughts
-This project reflects a sincere journey from raw console experiments to GUI-backed, secure, real-world architecture. It's not just a learning exercise—it's a statement:
-
-> _"I am a coder, not a designer. But I shall become a Master Developer."_
+This project reflects a sincere journey from raw console experiments to GUI-backed, secure, real-world architecture. 
 
 ---
 
