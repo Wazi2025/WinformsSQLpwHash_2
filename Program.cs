@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.Data.SqlClient;
-using System.Data;
-using Microsoft.IdentityModel.Tokens;
 
 
 namespace WinformsSQLpwHash_2
@@ -59,6 +60,39 @@ namespace WinformsSQLpwHash_2
                 return true;
             else
                 return false;
+        }
+
+        static public void LogUserLogin(string username, string password, string messageBoxLoginText)
+        {
+            //log user login attempts in file
+
+            string fileDataDir = "Data";
+            string fileName = "log.txt";
+
+            //Set the application path
+            string projectRoot = Directory.GetParent(AppContext.BaseDirectory).Parent.Parent.FullName;
+
+            string dirPath = Path.Combine(projectRoot, fileDataDir);
+
+            //Combine application path with where the csv file is (\Data\scrubbed.csv)
+            //Should eliminate hardcoding of file path as long as it's in the \Data dir with the compiled .exe a level above
+            string filePath = Path.Combine(projectRoot, fileDataDir, fileName);
+            DateTime dateTime = DateTime.Now;
+            string logString = $"{dateTime.ToString()}:  Username:'{username}'  Message:'{messageBoxLoginText}'";
+
+            //Create file and dir if it doesn't exist
+            if (!File.Exists(filePath) || !Directory.Exists(dirPath))
+            {
+                Directory.CreateDirectory(dirPath);
+                using StreamWriter streamWriter = File.CreateText(filePath);
+                streamWriter.WriteLine(logString);
+            }
+            else //Append to already existing file
+            {
+                using StreamWriter streamWriter = File.AppendText(filePath);
+                streamWriter.WriteLine(logString);                
+            }
+
         }
 
         static public bool TryLogin(string username, string password)
