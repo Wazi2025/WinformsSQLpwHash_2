@@ -29,7 +29,6 @@ A Windows Forms (.NET) application designed to demonstrate secure user authentic
 
 ### 👁️ Role-Based UI Access (WIP)
 - Currently uses a hardcoded check (`username == "Wazi"`) to toggle UI elements.
-- Planned upgrade: add `role` column in DB and dynamically manage permissions.
 
 ---
 
