@@ -6,6 +6,6 @@ A more advanced version of "Project Winforms" using a login window and the abili
 Includes bCrypt for salting and hashing of passwords.
 You will also need to add a 'user' table to the DB using the enclosed CreateUserTable.sql
 
-This is the Visual Studio "version" of Winforms_SQL_PwHash. Includes menu and About box.
+This is the Visual Studio "version" of Winforms_SQL_PwHash. Includes menu and About box & logfile routine.
 
 

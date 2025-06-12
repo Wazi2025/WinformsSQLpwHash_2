@@ -6,6 +6,7 @@
 
 ### Completed ✓
 
+- [x] Implement logfile routine
 - [x] Add menu
 - [x] Salting & hashing of passwords
 - [x] User login feature
