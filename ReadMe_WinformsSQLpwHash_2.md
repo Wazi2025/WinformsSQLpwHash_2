@@ -43,7 +43,7 @@ A Windows Forms (.NET) application designed to demonstrate secure user authentic
 ---
 
 ## 🔧 Setup & Run
-1. Clone this repo using the guide [a relative link](CloneRepo.md).
+1. Clone this repo using the guide [How to clone a repo](CloneRepo.md).
 2. Set up the required SQL Server database.
 3. Update the connection string in `Program.cs > GetFreshConnection()`.
 4. Build and run the project via Visual Studio.
