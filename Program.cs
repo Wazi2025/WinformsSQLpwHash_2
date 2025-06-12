@@ -65,7 +65,6 @@ namespace WinformsSQLpwHash_2
         static public void LogUserLogin(string username, string password, string messageBoxLoginText)
         {
             //log user login attempts in file
-
             string fileDataDir = "Data";
             string fileName = "log.txt";
 
