@@ -1,4 +1,4 @@
-# WinformsSQLpwHash_2
+# Winforms SQL PwHash 2
 
 A Windows Forms (.NET) application designed to demonstrate secure user authentication, data handling, and SQL Server integration. This is part of a larger series exploring the evolution from CLI/Console-based applications to GUI-based Windows Forms solutions.
 
