@@ -3,7 +3,7 @@
 # Project "Winforms SQL PwHash 2"
 
 
-This is the Visual Studio "version" of Winforms_SQL_PwHash. Includes menu and About box.
+This is the Visual Studio "version" of Winforms_SQL_PwHash.
 
 ## Includes
 
@@ -11,5 +11,6 @@ This is the Visual Studio "version" of Winforms_SQL_PwHash. Includes menu and Ab
 - User login feature
 - User privileges
 - Login attempts (logfile)
+- Menu and About box
 
 [Detailed overview](ReadMe_WinformsSQLpwHash_2.md)
