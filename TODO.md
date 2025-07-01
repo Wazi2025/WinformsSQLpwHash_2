@@ -2,7 +2,8 @@
 
 
 ### In progress
-- [ ] Implement update feature
+- [ ] Implement UPDATE feature
+- [ ] Implement PostgreSQL support
 
 ### Completed ✓
 

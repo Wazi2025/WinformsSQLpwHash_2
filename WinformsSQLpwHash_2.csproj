@@ -15,7 +15,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <IncrementVersionOnBuild>1.yyyy.Mdd.Hmm</IncrementVersionOnBuild>
-    <Version>1.2025.612.1906</Version>
+    <Version>1.2025.614.2147</Version>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
