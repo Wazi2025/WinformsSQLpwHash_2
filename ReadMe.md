@@ -13,5 +13,5 @@ This is the Visual Studio "version" of Winforms SQL PwHash.
 - Login attempts (logfile)
 - Menu and About box
 
-[To do](TODO.md)
+[To do](TODO.md)<br>
 [Detailed overview](ReadMe_WinformsSQLpwHash_2.md)
