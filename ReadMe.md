@@ -3,13 +3,13 @@
 # Project "Winforms SQL PwHash 2"
 
 
-This is the Visual Studio "version" of Winforms_SQL_PwHash.
+This is the Visual Studio "version" of Winforms SQL PwHash.
 
 ## Includes
 
-- Salting & hashing of passwords
+- Salting & hashing of passwords (bCrypt)
 - User login feature
-- User privileges
+- User privileges (hard coded for now)
 - Login attempts (logfile)
 - Menu and About box
 
