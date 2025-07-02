@@ -4,6 +4,7 @@
 ### In progress
 - [ ] Implement UPDATE feature
 - [ ] Implement PostgreSQL support
+- [ ] Unify project structure
 
 ### Completed ✓
 
